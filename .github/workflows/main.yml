@@ -1,0 +1,9 @@
+name: Github Actions
+on: workflow_dispatch
+jobs:
+  Firstjobtesting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: First step
+        run: echo "Workflow started"
+    
